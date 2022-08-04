@@ -24,7 +24,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
-ExecStart=/usr/sbin/edge /etc/n2/edge.conf -f
+ExecStart=/usr/sbin/edge /etc/n2/edge.conf -f -r
 
 [Install]
 WantedBy=multi-user.target
